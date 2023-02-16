@@ -1,0 +1,14 @@
+.summary h4{
+    border-bottom: 1px solid black;
+   margin: 0 1rem;
+   background-color: rgb(221, 229, 236);
+}
+
+.cost{
+    border-bottom: 1px solid black;
+    margin-top: .3rem;
+    padding: .5rem 0;
+}
+p{
+    margin: 0;
+}

@@ -1,0 +1,50 @@
+
+@media screen and (min-width:780px) {
+    .Shops{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .product{
+        width: 70%;
+        margin-left: 1.2rem;
+        margin-right: .5rem;
+        float: right;
+    }
+    
+    .product ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ordeReview{
+        border-left: 1px solid black;
+    }
+}
+
+
+
+@media screen and (max-width:780px) {
+    .Shops{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+    .product{
+        width: 60%;
+        margin-left: 1.2rem;
+        margin-right: .5rem;
+        float: left;
+    }
+    
+    .product ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ordeReview{
+        border-left: 1px solid black;
+    }
+}

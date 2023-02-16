@@ -1,0 +1,105 @@
+.header{
+    text-align: center;
+}
+
+.header img{
+    height: 5rem;
+}
+
+.navber{
+    background-color: black;
+    margin: 0;
+   
+}
+
+.navber ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
+
+.navber ul li{
+    margin-right: 1rem;
+    padding:.5rem 1rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+
+}
+.navber ul li:hover{
+    background-color: darkgrey;
+    text-decoration: dashed;
+    border-bottom-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.navber ul li a{  
+    color: aliceblue;
+    text-decoration: none;
+    transition: .5s;
+}
+.navber ul li a:focus{
+    color: rgb(43, 86, 0);
+    text-decoration: dashed;
+    
+}
+
+.search{
+    background-color: rgb(42, 47, 47);
+    padding: 1rem;
+}
+.search input{
+    min-width: 20rem;
+    height: 2.5rem;
+    outline: none;
+    padding: 0;
+    font-size: 1rem;
+    border-right: none;
+    border-top-left-radius: .5rem;
+  
+}
+.search .Sbtn{
+     
+    padding: .61rem 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border-left: none;
+    border-bottom-right-radius: .5rem;
+    
+    background: linear-gradient(rgb(255, 0, 191),rgb(255, 1, 128));
+
+}
+.search .Sbtn:focus{
+    background: linear-gradient(rgba(255, 0, 191, 0.8),rgba(255, 0, 128, 0.8));
+}
+
+
+@media screen and (max-width:780px) {
+    
+
+
+    .search input{
+        min-width: 20rem;
+        height: 2.5rem;
+        outline: none;
+        padding: 0;
+        font-size: 1rem;
+        border-right: none;
+        border-top-left-radius: .5rem;
+        border-bottom-right-radius: .5rem;
+        margin-bottom: .3rem;
+    }
+    .search .Sbtn{
+         
+        padding: .61rem 1rem;
+        font-size: 1.1rem;
+        outline: none;
+        border-left: none;
+        border-bottom-right-radius: .5rem;
+        border-top-left-radius: .5rem;
+        background: linear-gradient(rgb(255, 0, 191),rgb(255, 1, 128));
+    
+    }
+
+}
